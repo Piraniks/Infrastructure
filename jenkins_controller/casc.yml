@@ -18,8 +18,8 @@
         labelString: "agent"
         launcher:
           ssh:
-            credentialsId: "jenkins_agent"
-            host: "jenkins_agent"
+            credentialsId: "jenkins-agent"
+            host: "jenkins-agent"
             port: 22
             sshHostKeyVerificationStrategy: "nonVerifyingKeyVerificationStrategy"
         name: "agent"
